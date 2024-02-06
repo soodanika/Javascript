@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1001,
+        "imageUrl": "",
+        "firstName": "Anika",
+        "lastName": "Sood",
+        "email": "soodanika2001@gmail.com",
+        "contactNumber": "8847564691",
+        "age": 21,
+        "dob": "13/01/2001",
+        "salary": 1,
+        "address": "Address1"
+    },
+    {
+        "id": 1002,
+        "imageUrl": "",
+        "firstName": "Ajay",
+        "lastName": "Sud",
+        "email": "soodanika2002@gmail.com",
+        "contactNumber": "8847564692",
+        "age": 22,
+        "dob": "13/01/2002",
+        "salary": 2,
+        "address": "Address2"
+    },
+    {
+        "id": 1003,
+        "imageUrl": "",
+        "firstName": "Anshika",
+        "lastName": "Sood",
+        "email": "soodanika2003@gmail.com",
+        "contactNumber": "8847564693",
+        "age": 23,
+        "dob": "13/01/2003",
+        "salary": 3,
+        "address": "Address3"
+    },
+    {
+        "id": 1004,
+        "imageUrl": "",
+        "firstName": "Anuja",
+        "lastName": "Sood",
+        "email": "soodanika2004@gmail.com",
+        "contactNumber": "8847564694",
+        "age": 24,
+        "dob": "13/01/2004",
+        "salary": 4,
+        "address": "Address4"
+    },
+    {
+        "id": 1005,
+        "imageUrl": "",
+        "firstName": "Aman",
+        "lastName": "Sood",
+        "email": "soodanika2005@gmail.com",
+        "contactNumber": "8847564695",
+        "age": 25,
+        "dob": "13/01/2005",
+        "salary": 5,
+        "address": "Addres5"
+    }
+]

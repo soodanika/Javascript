@@ -1,0 +1,138 @@
+body {
+  padding: 10px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+:root {
+  --btn: lightgray;
+  --btn-hover: grey;
+}
+
+.createEmployee {
+  padding: 10px 15px;
+  border-radius: 20px;
+  border: none;
+  background-color: var(--btn);
+  cursor: pointer;
+}
+
+.createEmployee:hover {
+  padding: 10px 15px;
+  border-radius: 20px;
+  border: none;
+  background-color: var(--btn-hover);
+  cursor: pointer;
+}
+
+.employee-table {
+  display: flex;
+}
+
+.employee-table > div {
+  border: 1px solid black;
+  height: 450px;
+  overflow-y: scroll;
+}
+
+.employee-list {
+  width: 30%;
+}
+
+.employee-detail {
+  width: 70%;
+}
+
+.employee-list,
+.employee-detail {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.employee-list-title,
+.employee-detail-title {
+  padding-bottom: 10px;
+  margin-bottom: 5px;
+  border-bottom: 1px solid black;
+  text-align: center;
+}
+
+.employee-names-item {
+  cursor: pointer;
+  padding: 10px 15px;
+  margin-bottom: 5px;
+  text-align: center;
+  background-color: var(--btn);
+  border-radius: 10px;
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: space-around;
+  align-items: center;
+}
+
+.employee-names-item:hover,
+.selected {
+  background-color: var(--btn-hover);
+}
+
+.employee-detail-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.employee-single-info {
+  text-align: center;
+  font-size: 25px;
+  text-transform: uppercase;
+  padding: 5px;
+}
+
+.addEmployee {
+  display: none;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  justify-content: center;
+  align-items: center;
+}
+
+.addEmployee-create {
+  width: 400px;
+  background-color: white;
+  box-shadow: 0 0 50px grey;
+  padding: 20px;
+  border-radius: 5px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.addEmployee-create > div {
+  display: grid;
+  grid-template-columns: 48.1% 48.1%;
+  column-gap: 15px;
+}
+
+.addEmployee-create input {
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: 1px solid rgb(236, 236, 236);
+}
+
+.addEmployee-create-submit {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  background-color: var(--btn);
+  cursor: pointer;
+}
