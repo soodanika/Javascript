@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.main-container {
+  width: 60%;
+  margin: 30px auto;
+}
+
+.input-box {
+  width: 700px;
+  height: 20px;
+  padding: 10px;
+  font-size: large;
+  margin-bottom: 30px;
+}
+
+.label {
+  background-color: black;
+  color: white;
+  margin: 10px;
+  padding: 0px 5px;
+  position: relative;
+  bottom: -9px;
+}
+
+.text {
+  width: 700px;
+  height: 20px;
+  padding: 10px;
+  font-size: large;
+  background-color: beige;
+  margin-bottom: 10px;
+}
