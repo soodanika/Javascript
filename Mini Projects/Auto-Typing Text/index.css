@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div {
+  color: brown;
+  font-size: 50px;
+  font-family: sans-serif;
+}
+
+span {
+  color: blueviolet;
+  display: inline-block;
+  border-right: 2px solid blueviolet;
+  padding-right: 4px;
+}
